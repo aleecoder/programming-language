@@ -1,1 +1,3 @@
-module "learn-go"
+module learn-go
+
+go 1.19
