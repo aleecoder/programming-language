@@ -42,7 +42,7 @@ func main() {
 	delete(student, 180512213)
 	fmt.Println(student)
 	// key : string
-	// value: map
+	// value: map[int]string
 	school := map[string]map[int]string{
 		"信息学部": {
 			202201: "计算机科学与技术",
