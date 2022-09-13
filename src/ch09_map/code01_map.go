@@ -41,4 +41,21 @@ func main() {
 	// 删除map
 	delete(student, 180512213)
 	fmt.Println(student)
+	// key : string
+	// value: map
+	school := map[string]map[int]string{
+		"信息学部": {
+			202201: "计算机科学与技术",
+			202202: "软件工程",
+			202203: "数据科学与大数据技术"},
+		"马克思主义学院": {
+			202204: "哲学系",
+			202205: "政治学系",
+		},
+	}
+	for college, majors := range school {
+		for id, major := range majors {
+			fmt.Printf("院系：%v\t专业ID：%v\t专业名称：%v\n", college, id, major)
+		}
+	}
 }
