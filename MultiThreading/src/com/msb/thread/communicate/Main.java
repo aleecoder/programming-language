@@ -1,0 +1,15 @@
+package com.msb.thread.communicate;
+
+/**
+ * @author HuanyuLee
+ * @date 2022/3/11
+ */
+public class Main {
+    public static void main(String[] args) {
+        Product product = new Product();
+        Producer producer = new Producer(product);
+        Customer customer = new Customer(product);
+        producer.start();
+        customer.start();
+    }
+}
