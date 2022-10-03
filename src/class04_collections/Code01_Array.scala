@@ -8,7 +8,7 @@ import java.util
  */
 object Code01_Array {
     // Java Code
-    val listJ = new util.LinkedList[String]()
+    val listJ = new util.ArrayList[String]()
     listJ.addAll(util.Arrays.asList("Java", "Scala", "Python", "Golang"))
     println(s"listJ = ${listJ}")
 
