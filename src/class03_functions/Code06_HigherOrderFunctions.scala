@@ -6,18 +6,28 @@ package class03_functions
  * @author HuanyuLee
  */
 object Code06_HigherOrderFunctions {
-    // 函数作为参数
+    /**
+     * 函数作为参数
+     * @param a Int
+     * @param b Int
+     * @param f (Int, Int) => Int) 对a和b做什么操作
+     */
     def calculate(a: Int, b: Int, f: (Int, Int) => Int): Unit = {
         println(s"ans = ${f(a, b)}")
     }
 
-    // 函数作为返回值
+    /**
+     * 函数作为返回值
+     * @param op 用户传入操作符
+     * @return (Int, Int) => Int
+     */
     def option(op: String): (Int, Int) => Int = {
         def plus(x: Int, y: Int): Int = {
             x + y
         }
         def error(): (Int, Int) => Int = {
             print(s"Exception::错误的操作符$op，默认做加法运算: ")
+            //throw RuntimeException
             _ + _
         }
         op match {
