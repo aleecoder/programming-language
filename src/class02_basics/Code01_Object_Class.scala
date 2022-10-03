@@ -2,7 +2,6 @@ package class02_basics
 
 /**
  * object 和 class 一些细节
- *
  * @author HuanyuLee
  */
 object XX {
