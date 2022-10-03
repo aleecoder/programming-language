@@ -1,4 +1,4 @@
-package class02_basics
+package class01_basics
 
 /**
  * object 和 class 一些细节

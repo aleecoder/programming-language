@@ -1,4 +1,4 @@
-package class02_basics
+package class01_basics
 
 /**
  * 伴生
