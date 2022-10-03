@@ -1,4 +1,4 @@
-package class01_hello_world
+package class00_hello_world
 
 /**
  * @author HuanyuLee
