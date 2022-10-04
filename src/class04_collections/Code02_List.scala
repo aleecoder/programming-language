@@ -23,6 +23,5 @@ object Code02_List {
         println(s"list2 = ${list2}")
         list2.-=(22)
         println(s"list2 = ${list2}")
-
     }
 }
