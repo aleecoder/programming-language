@@ -1,0 +1,3 @@
+D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/learn_c.dir
+D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
