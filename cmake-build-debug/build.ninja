@@ -54,8 +54,6 @@ build CMakeFiles/learn_c.dir/main.c.obj: C_COMPILER__learn_c_Debug D$:/space/pro
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_c.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_c.dir
-  TARGET_COMPILE_PDB = CMakeFiles\learn_c.dir\
-  TARGET_PDB = learn_c.pdb
 
 
 # =============================================================================
@@ -71,10 +69,966 @@ build learn_c.exe: C_EXECUTABLE_LINKER__learn_c_Debug CMakeFiles/learn_c.dir/mai
   OBJECT_DIR = CMakeFiles\learn_c.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\learn_c.dir\
   TARGET_FILE = learn_c.exe
   TARGET_IMPLIB = liblearn_c.dll.a
-  TARGET_PDB = learn_c.pdb
+  TARGET_PDB = learn_c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target narcissistic_number
+
+
+#############################################
+# Order-only phony target for narcissistic_number
+
+build cmake_object_order_depends_target_narcissistic_number: phony || CMakeFiles/narcissistic_number.dir
+
+build CMakeFiles/narcissistic_number.dir/test/narcissistic_number.c.obj: C_COMPILER__narcissistic_number_Debug D$:/space/programming-language/learn-c/test/narcissistic_number.c || cmake_object_order_depends_target_narcissistic_number
+  DEP_FILE = CMakeFiles\narcissistic_number.dir\test\narcissistic_number.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\narcissistic_number.dir
+  OBJECT_FILE_DIR = CMakeFiles\narcissistic_number.dir\test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target narcissistic_number
+
+
+#############################################
+# Link the executable narcissistic_number.exe
+
+build narcissistic_number.exe: C_EXECUTABLE_LINKER__narcissistic_number_Debug CMakeFiles/narcissistic_number.dir/test/narcissistic_number.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\narcissistic_number.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = narcissistic_number.exe
+  TARGET_IMPLIB = libnarcissistic_number.dll.a
+  TARGET_PDB = narcissistic_number.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target array
+
+
+#############################################
+# Order-only phony target for array
+
+build cmake_object_order_depends_target_array: phony || CMakeFiles/array.dir
+
+build CMakeFiles/array.dir/linked_list/array.c.obj: C_COMPILER__array_Debug D$:/space/programming-language/learn-c/linked_list/array.c || cmake_object_order_depends_target_array
+  DEP_FILE = CMakeFiles\array.dir\linked_list\array.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\array.dir
+  OBJECT_FILE_DIR = CMakeFiles\array.dir\linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array
+
+
+#############################################
+# Link the executable array.exe
+
+build array.exe: C_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/linked_list/array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = array.exe
+  TARGET_IMPLIB = libarray.dll.a
+  TARGET_PDB = array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linked-list
+
+
+#############################################
+# Order-only phony target for linked-list
+
+build cmake_object_order_depends_target_linked-list: phony || CMakeFiles/linked-list.dir
+
+build CMakeFiles/linked-list.dir/linked_list/linked-list.c.obj: C_COMPILER__linked-list_Debug D$:/space/programming-language/learn-c/linked_list/linked-list.c || cmake_object_order_depends_target_linked-list
+  DEP_FILE = CMakeFiles\linked-list.dir\linked_list\linked-list.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\linked-list.dir
+  OBJECT_FILE_DIR = CMakeFiles\linked-list.dir\linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linked-list
+
+
+#############################################
+# Link the executable linked-list.exe
+
+build linked-list.exe: C_EXECUTABLE_LINKER__linked-list_Debug CMakeFiles/linked-list.dir/linked_list/linked-list.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linked-list.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linked-list.exe
+  TARGET_IMPLIB = liblinked-list.dll.a
+  TARGET_PDB = linked-list.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target format_io
+
+
+#############################################
+# Order-only phony target for format_io
+
+build cmake_object_order_depends_target_format_io: phony || CMakeFiles/format_io.dir
+
+build CMakeFiles/format_io.dir/file/format_io.c.obj: C_COMPILER__format_io_Debug D$:/space/programming-language/learn-c/file/format_io.c || cmake_object_order_depends_target_format_io
+  DEP_FILE = CMakeFiles\format_io.dir\file\format_io.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\format_io.dir
+  OBJECT_FILE_DIR = CMakeFiles\format_io.dir\file
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target format_io
+
+
+#############################################
+# Link the executable format_io.exe
+
+build format_io.exe: C_EXECUTABLE_LINKER__format_io_Debug CMakeFiles/format_io.dir/file/format_io.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\format_io.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = format_io.exe
+  TARGET_IMPLIB = libformat_io.dll.a
+  TARGET_PDB = format_io.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binary_file
+
+
+#############################################
+# Order-only phony target for binary_file
+
+build cmake_object_order_depends_target_binary_file: phony || CMakeFiles/binary_file.dir
+
+build CMakeFiles/binary_file.dir/file/write_binary_file.c.obj: C_COMPILER__binary_file_Debug D$:/space/programming-language/learn-c/file/write_binary_file.c || cmake_object_order_depends_target_binary_file
+  DEP_FILE = CMakeFiles\binary_file.dir\file\write_binary_file.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\binary_file.dir
+  OBJECT_FILE_DIR = CMakeFiles\binary_file.dir\file
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary_file
+
+
+#############################################
+# Link the executable binary_file.exe
+
+build binary_file.exe: C_EXECUTABLE_LINKER__binary_file_Debug CMakeFiles/binary_file.dir/file/write_binary_file.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binary_file.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binary_file.exe
+  TARGET_IMPLIB = libbinary_file.dll.a
+  TARGET_PDB = binary_file.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target read_binary_file
+
+
+#############################################
+# Order-only phony target for read_binary_file
+
+build cmake_object_order_depends_target_read_binary_file: phony || CMakeFiles/read_binary_file.dir
+
+build CMakeFiles/read_binary_file.dir/file/read_binary_file.c.obj: C_COMPILER__read_binary_file_Debug D$:/space/programming-language/learn-c/file/read_binary_file.c || cmake_object_order_depends_target_read_binary_file
+  DEP_FILE = CMakeFiles\read_binary_file.dir\file\read_binary_file.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\read_binary_file.dir
+  OBJECT_FILE_DIR = CMakeFiles\read_binary_file.dir\file
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target read_binary_file
+
+
+#############################################
+# Link the executable read_binary_file.exe
+
+build read_binary_file.exe: C_EXECUTABLE_LINKER__read_binary_file_Debug CMakeFiles/read_binary_file.dir/file/read_binary_file.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\read_binary_file.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = read_binary_file.exe
+  TARGET_IMPLIB = libread_binary_file.dll.a
+  TARGET_PDB = read_binary_file.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target print_binary
+
+
+#############################################
+# Order-only phony target for print_binary
+
+build cmake_object_order_depends_target_print_binary: phony || CMakeFiles/print_binary.dir
+
+build CMakeFiles/print_binary.dir/file/print_binary.c.obj: C_COMPILER__print_binary_Debug D$:/space/programming-language/learn-c/file/print_binary.c || cmake_object_order_depends_target_print_binary
+  DEP_FILE = CMakeFiles\print_binary.dir\file\print_binary.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\print_binary.dir
+  OBJECT_FILE_DIR = CMakeFiles\print_binary.dir\file
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target print_binary
+
+
+#############################################
+# Link the executable print_binary.exe
+
+build print_binary.exe: C_EXECUTABLE_LINKER__print_binary_Debug CMakeFiles/print_binary.dir/file/print_binary.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\print_binary.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = print_binary.exe
+  TARGET_IMPLIB = libprint_binary.dll.a
+  TARGET_PDB = print_binary.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target var
+
+
+#############################################
+# Order-only phony target for var
+
+build cmake_object_order_depends_target_var: phony || CMakeFiles/var.dir
+
+build CMakeFiles/var.dir/program_structure/var.c.obj: C_COMPILER__var_Debug D$:/space/programming-language/learn-c/program_structure/var.c || cmake_object_order_depends_target_var
+  DEP_FILE = CMakeFiles\var.dir\program_structure\var.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\var.dir
+  OBJECT_FILE_DIR = CMakeFiles\var.dir\program_structure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target var
+
+
+#############################################
+# Link the executable var.exe
+
+build var.exe: C_EXECUTABLE_LINKER__var_Debug CMakeFiles/var.dir/program_structure/var.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\var.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = var.exe
+  TARGET_IMPLIB = libvar.dll.a
+  TARGET_PDB = var.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target macro
+
+
+#############################################
+# Order-only phony target for macro
+
+build cmake_object_order_depends_target_macro: phony || CMakeFiles/macro.dir
+
+build CMakeFiles/macro.dir/program_structure/macro.c.obj: C_COMPILER__macro_Debug D$:/space/programming-language/learn-c/program_structure/macro.c || cmake_object_order_depends_target_macro
+  DEP_FILE = CMakeFiles\macro.dir\program_structure\macro.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\macro.dir
+  OBJECT_FILE_DIR = CMakeFiles\macro.dir\program_structure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target macro
+
+
+#############################################
+# Link the executable macro.exe
+
+build macro.exe: C_EXECUTABLE_LINKER__macro_Debug CMakeFiles/macro.dir/program_structure/macro.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\macro.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = macro.exe
+  TARGET_IMPLIB = libmacro.dll.a
+  TARGET_PDB = macro.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target go
+
+
+#############################################
+# Order-only phony target for go
+
+build cmake_object_order_depends_target_go: phony || CMakeFiles/go.dir
+
+build CMakeFiles/go.dir/program_structure/go.c.obj: C_COMPILER__go_Debug D$:/space/programming-language/learn-c/program_structure/go.c || cmake_object_order_depends_target_go
+  DEP_FILE = CMakeFiles\go.dir\program_structure\go.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\go.dir
+  OBJECT_FILE_DIR = CMakeFiles\go.dir\program_structure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target go
+
+
+#############################################
+# Link the executable go.exe
+
+build go.exe: C_EXECUTABLE_LINKER__go_Debug CMakeFiles/go.dir/program_structure/go.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\go.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = go.exe
+  TARGET_IMPLIB = libgo.dll.a
+  TARGET_PDB = go.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target enum
+
+
+#############################################
+# Order-only phony target for enum
+
+build cmake_object_order_depends_target_enum: phony || CMakeFiles/enum.dir
+
+build CMakeFiles/enum.dir/structure_type/enum.c.obj: C_COMPILER__enum_Debug D$:/space/programming-language/learn-c/structure_type/enum.c || cmake_object_order_depends_target_enum
+  DEP_FILE = CMakeFiles\enum.dir\structure_type\enum.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\enum.dir
+  OBJECT_FILE_DIR = CMakeFiles\enum.dir\structure_type
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target enum
+
+
+#############################################
+# Link the executable enum.exe
+
+build enum.exe: C_EXECUTABLE_LINKER__enum_Debug CMakeFiles/enum.dir/structure_type/enum.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\enum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = enum.exe
+  TARGET_IMPLIB = libenum.dll.a
+  TARGET_PDB = enum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target struct
+
+
+#############################################
+# Order-only phony target for struct
+
+build cmake_object_order_depends_target_struct: phony || CMakeFiles/struct.dir
+
+build CMakeFiles/struct.dir/structure_type/struct.c.obj: C_COMPILER__struct_Debug D$:/space/programming-language/learn-c/structure_type/struct.c || cmake_object_order_depends_target_struct
+  DEP_FILE = CMakeFiles\struct.dir\structure_type\struct.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\struct.dir
+  OBJECT_FILE_DIR = CMakeFiles\struct.dir\structure_type
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct
+
+
+#############################################
+# Link the executable struct.exe
+
+build struct.exe: C_EXECUTABLE_LINKER__struct_Debug CMakeFiles/struct.dir/structure_type/struct.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\struct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = struct.exe
+  TARGET_IMPLIB = libstruct.dll.a
+  TARGET_PDB = struct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target struct_of_struct
+
+
+#############################################
+# Order-only phony target for struct_of_struct
+
+build cmake_object_order_depends_target_struct_of_struct: phony || CMakeFiles/struct_of_struct.dir
+
+build CMakeFiles/struct_of_struct.dir/structure_type/struct_of_struct.c.obj: C_COMPILER__struct_of_struct_Debug D$:/space/programming-language/learn-c/structure_type/struct_of_struct.c || cmake_object_order_depends_target_struct_of_struct
+  DEP_FILE = CMakeFiles\struct_of_struct.dir\structure_type\struct_of_struct.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\struct_of_struct.dir
+  OBJECT_FILE_DIR = CMakeFiles\struct_of_struct.dir\structure_type
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct_of_struct
+
+
+#############################################
+# Link the executable struct_of_struct.exe
+
+build struct_of_struct.exe: C_EXECUTABLE_LINKER__struct_of_struct_Debug CMakeFiles/struct_of_struct.dir/structure_type/struct_of_struct.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\struct_of_struct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = struct_of_struct.exe
+  TARGET_IMPLIB = libstruct_of_struct.dll.a
+  TARGET_PDB = struct_of_struct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target union
+
+
+#############################################
+# Order-only phony target for union
+
+build cmake_object_order_depends_target_union: phony || CMakeFiles/union.dir
+
+build CMakeFiles/union.dir/structure_type/union.c.obj: C_COMPILER__union_Debug D$:/space/programming-language/learn-c/structure_type/union.c || cmake_object_order_depends_target_union
+  DEP_FILE = CMakeFiles\union.dir\structure_type\union.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\union.dir
+  OBJECT_FILE_DIR = CMakeFiles\union.dir\structure_type
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target union
+
+
+#############################################
+# Link the executable union.exe
+
+build union.exe: C_EXECUTABLE_LINKER__union_Debug CMakeFiles/union.dir/structure_type/union.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\union.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = union.exe
+  TARGET_IMPLIB = libunion.dll.a
+  TARGET_PDB = union.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string
+
+
+#############################################
+# Order-only phony target for string
+
+build cmake_object_order_depends_target_string: phony || CMakeFiles/string.dir
+
+build CMakeFiles/string.dir/string/string.c.obj: C_COMPILER__string_Debug D$:/space/programming-language/learn-c/string/string.c || cmake_object_order_depends_target_string
+  DEP_FILE = CMakeFiles\string.dir\string\string.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\string.dir
+  OBJECT_FILE_DIR = CMakeFiles\string.dir\string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string
+
+
+#############################################
+# Link the executable string.exe
+
+build string.exe: C_EXECUTABLE_LINKER__string_Debug CMakeFiles/string.dir/string/string.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = string.exe
+  TARGET_IMPLIB = libstring.dll.a
+  TARGET_PDB = string.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target month
+
+
+#############################################
+# Order-only phony target for month
+
+build cmake_object_order_depends_target_month: phony || CMakeFiles/month.dir
+
+build CMakeFiles/month.dir/test/month.c.obj: C_COMPILER__month_Debug D$:/space/programming-language/learn-c/test/month.c || cmake_object_order_depends_target_month
+  DEP_FILE = CMakeFiles\month.dir\test\month.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\month.dir
+  OBJECT_FILE_DIR = CMakeFiles\month.dir\test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target month
+
+
+#############################################
+# Link the executable month.exe
+
+build month.exe: C_EXECUTABLE_LINKER__month_Debug CMakeFiles/month.dir/test/month.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\month.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = month.exe
+  TARGET_IMPLIB = libmonth.dll.a
+  TARGET_PDB = month.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target str_func
+
+
+#############################################
+# Order-only phony target for str_func
+
+build cmake_object_order_depends_target_str_func: phony || CMakeFiles/str_func.dir
+
+build CMakeFiles/str_func.dir/string/func_putchar_getchar.c.obj: C_COMPILER__str_func_Debug D$:/space/programming-language/learn-c/string/func_putchar_getchar.c || cmake_object_order_depends_target_str_func
+  DEP_FILE = CMakeFiles\str_func.dir\string\func_putchar_getchar.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\str_func.dir
+  OBJECT_FILE_DIR = CMakeFiles\str_func.dir\string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target str_func
+
+
+#############################################
+# Link the executable str_func.exe
+
+build str_func.exe: C_EXECUTABLE_LINKER__str_func_Debug CMakeFiles/str_func.dir/string/func_putchar_getchar.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\str_func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = str_func.exe
+  TARGET_IMPLIB = libstr_func.dll.a
+  TARGET_PDB = str_func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_strlen
+
+
+#############################################
+# Order-only phony target for func_strlen
+
+build cmake_object_order_depends_target_func_strlen: phony || CMakeFiles/func_strlen.dir
+
+build CMakeFiles/func_strlen.dir/string/func_strlen.c.obj: C_COMPILER__func_strlen_Debug D$:/space/programming-language/learn-c/string/func_strlen.c || cmake_object_order_depends_target_func_strlen
+  DEP_FILE = CMakeFiles\func_strlen.dir\string\func_strlen.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\func_strlen.dir
+  OBJECT_FILE_DIR = CMakeFiles\func_strlen.dir\string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_strlen
+
+
+#############################################
+# Link the executable func_strlen.exe
+
+build func_strlen.exe: C_EXECUTABLE_LINKER__func_strlen_Debug CMakeFiles/func_strlen.dir/string/func_strlen.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\func_strlen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = func_strlen.exe
+  TARGET_IMPLIB = libfunc_strlen.dll.a
+  TARGET_PDB = func_strlen.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_strcmp
+
+
+#############################################
+# Order-only phony target for func_strcmp
+
+build cmake_object_order_depends_target_func_strcmp: phony || CMakeFiles/func_strcmp.dir
+
+build CMakeFiles/func_strcmp.dir/string/func_strcmp.c.obj: C_COMPILER__func_strcmp_Debug D$:/space/programming-language/learn-c/string/func_strcmp.c || cmake_object_order_depends_target_func_strcmp
+  DEP_FILE = CMakeFiles\func_strcmp.dir\string\func_strcmp.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\func_strcmp.dir
+  OBJECT_FILE_DIR = CMakeFiles\func_strcmp.dir\string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_strcmp
+
+
+#############################################
+# Link the executable func_strcmp.exe
+
+build func_strcmp.exe: C_EXECUTABLE_LINKER__func_strcmp_Debug CMakeFiles/func_strcmp.dir/string/func_strcmp.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\func_strcmp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = func_strcmp.exe
+  TARGET_IMPLIB = libfunc_strcmp.dll.a
+  TARGET_PDB = func_strcmp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_strcpy
+
+
+#############################################
+# Order-only phony target for func_strcpy
+
+build cmake_object_order_depends_target_func_strcpy: phony || CMakeFiles/func_strcpy.dir
+
+build CMakeFiles/func_strcpy.dir/string/func_strcpy.c.obj: C_COMPILER__func_strcpy_Debug D$:/space/programming-language/learn-c/string/func_strcpy.c || cmake_object_order_depends_target_func_strcpy
+  DEP_FILE = CMakeFiles\func_strcpy.dir\string\func_strcpy.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\func_strcpy.dir
+  OBJECT_FILE_DIR = CMakeFiles\func_strcpy.dir\string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_strcpy
+
+
+#############################################
+# Link the executable func_strcpy.exe
+
+build func_strcpy.exe: C_EXECUTABLE_LINKER__func_strcpy_Debug CMakeFiles/func_strcpy.dir/string/func_strcpy.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\func_strcpy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = func_strcpy.exe
+  TARGET_IMPLIB = libfunc_strcpy.dll.a
+  TARGET_PDB = func_strcpy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target isPrime
+
+
+#############################################
+# Order-only phony target for isPrime
+
+build cmake_object_order_depends_target_isPrime: phony || CMakeFiles/isPrime.dir
+
+build CMakeFiles/isPrime.dir/array/isPrime.c.obj: C_COMPILER__isPrime_Debug D$:/space/programming-language/learn-c/array/isPrime.c || cmake_object_order_depends_target_isPrime
+  DEP_FILE = CMakeFiles\isPrime.dir\array\isPrime.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\isPrime.dir
+  OBJECT_FILE_DIR = CMakeFiles\isPrime.dir\array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target isPrime
+
+
+#############################################
+# Link the executable isPrime.exe
+
+build isPrime.exe: C_EXECUTABLE_LINKER__isPrime_Debug CMakeFiles/isPrime.dir/array/isPrime.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\isPrime.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = isPrime.exe
+  TARGET_IMPLIB = libisPrime.dll.a
+  TARGET_PDB = isPrime.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target def_func
+
+
+#############################################
+# Order-only phony target for def_func
+
+build cmake_object_order_depends_target_def_func: phony || CMakeFiles/def_func.dir
+
+build CMakeFiles/def_func.dir/function/def_func.c.obj: C_COMPILER__def_func_Debug D$:/space/programming-language/learn-c/function/def_func.c || cmake_object_order_depends_target_def_func
+  DEP_FILE = CMakeFiles\def_func.dir\function\def_func.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\def_func.dir
+  OBJECT_FILE_DIR = CMakeFiles\def_func.dir\function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target def_func
+
+
+#############################################
+# Link the executable def_func.exe
+
+build def_func.exe: C_EXECUTABLE_LINKER__def_func_Debug CMakeFiles/def_func.dir/function/def_func.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\def_func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = def_func.exe
+  TARGET_IMPLIB = libdef_func.dll.a
+  TARGET_PDB = def_func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target param_transfer
+
+
+#############################################
+# Order-only phony target for param_transfer
+
+build cmake_object_order_depends_target_param_transfer: phony || CMakeFiles/param_transfer.dir
+
+build CMakeFiles/param_transfer.dir/function/param_transfer.c.obj: C_COMPILER__param_transfer_Debug D$:/space/programming-language/learn-c/function/param_transfer.c || cmake_object_order_depends_target_param_transfer
+  DEP_FILE = CMakeFiles\param_transfer.dir\function\param_transfer.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\param_transfer.dir
+  OBJECT_FILE_DIR = CMakeFiles\param_transfer.dir\function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target param_transfer
+
+
+#############################################
+# Link the executable param_transfer.exe
+
+build param_transfer.exe: C_EXECUTABLE_LINKER__param_transfer_Debug CMakeFiles/param_transfer.dir/function/param_transfer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\param_transfer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = param_transfer.exe
+  TARGET_IMPLIB = libparam_transfer.dll.a
+  TARGET_PDB = param_transfer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sizeof
+
+
+#############################################
+# Order-only phony target for sizeof
+
+build cmake_object_order_depends_target_sizeof: phony || CMakeFiles/sizeof.dir
+
+build CMakeFiles/sizeof.dir/data_type/sizeof.c.obj: C_COMPILER__sizeof_Debug D$:/space/programming-language/learn-c/data_type/sizeof.c || cmake_object_order_depends_target_sizeof
+  DEP_FILE = CMakeFiles\sizeof.dir\data_type\sizeof.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\sizeof.dir
+  OBJECT_FILE_DIR = CMakeFiles\sizeof.dir\data_type
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sizeof
+
+
+#############################################
+# Link the executable sizeof.exe
+
+build sizeof.exe: C_EXECUTABLE_LINKER__sizeof_Debug CMakeFiles/sizeof.dir/data_type/sizeof.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sizeof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sizeof.exe
+  TARGET_IMPLIB = libsizeof.dll.a
+  TARGET_PDB = sizeof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target count
+
+
+#############################################
+# Order-only phony target for count
+
+build cmake_object_order_depends_target_count: phony || CMakeFiles/count.dir
+
+build CMakeFiles/count.dir/array/count.c.obj: C_COMPILER__count_Debug D$:/space/programming-language/learn-c/array/count.c || cmake_object_order_depends_target_count
+  DEP_FILE = CMakeFiles\count.dir\array\count.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\count.dir
+  OBJECT_FILE_DIR = CMakeFiles\count.dir\array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target count
+
+
+#############################################
+# Link the executable count.exe
+
+build count.exe: C_EXECUTABLE_LINKER__count_Debug CMakeFiles/count.dir/array/count.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\count.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = count.exe
+  TARGET_IMPLIB = libcount.dll.a
+  TARGET_PDB = count.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target search
+
+
+#############################################
+# Order-only phony target for search
+
+build cmake_object_order_depends_target_search: phony || CMakeFiles/search.dir
+
+build CMakeFiles/search.dir/array/search.c.obj: C_COMPILER__search_Debug D$:/space/programming-language/learn-c/array/search.c || cmake_object_order_depends_target_search
+  DEP_FILE = CMakeFiles\search.dir\array\search.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\search.dir
+  OBJECT_FILE_DIR = CMakeFiles\search.dir\array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target search
+
+
+#############################################
+# Link the executable search.exe
+
+build search.exe: C_EXECUTABLE_LINKER__search_Debug CMakeFiles/search.dir/array/search.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\search.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = search.exe
+  TARGET_IMPLIB = libsearch.dll.a
+  TARGET_PDB = search.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tic-tac-toe
+
+
+#############################################
+# Order-only phony target for tic-tac-toe
+
+build cmake_object_order_depends_target_tic-tac-toe: phony || CMakeFiles/tic-tac-toe.dir
+
+build CMakeFiles/tic-tac-toe.dir/array/tic-tac-toe.c.obj: C_COMPILER__tic-tac-toe_Debug D$:/space/programming-language/learn-c/array/tic-tac-toe.c || cmake_object_order_depends_target_tic-tac-toe
+  DEP_FILE = CMakeFiles\tic-tac-toe.dir\array\tic-tac-toe.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\tic-tac-toe.dir
+  OBJECT_FILE_DIR = CMakeFiles\tic-tac-toe.dir\array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tic-tac-toe
+
+
+#############################################
+# Link the executable tic-tac-toe.exe
+
+build tic-tac-toe.exe: C_EXECUTABLE_LINKER__tic-tac-toe_Debug CMakeFiles/tic-tac-toe.dir/array/tic-tac-toe.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tic-tac-toe.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tic-tac-toe.exe
+  TARGET_IMPLIB = libtic-tac-toe.dll.a
+  TARGET_PDB = tic-tac-toe.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target get_address
+
+
+#############################################
+# Order-only phony target for get_address
+
+build cmake_object_order_depends_target_get_address: phony || CMakeFiles/get_address.dir
+
+build CMakeFiles/get_address.dir/pointer/get_address.c.obj: C_COMPILER__get_address_Debug D$:/space/programming-language/learn-c/pointer/get_address.c || cmake_object_order_depends_target_get_address
+  DEP_FILE = CMakeFiles\get_address.dir\pointer\get_address.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\get_address.dir
+  OBJECT_FILE_DIR = CMakeFiles\get_address.dir\pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target get_address
+
+
+#############################################
+# Link the executable get_address.exe
+
+build get_address.exe: C_EXECUTABLE_LINKER__get_address_Debug CMakeFiles/get_address.dir/pointer/get_address.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\get_address.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = get_address.exe
+  TARGET_IMPLIB = libget_address.dll.a
+  TARGET_PDB = get_address.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointer
+
+
+#############################################
+# Order-only phony target for pointer
+
+build cmake_object_order_depends_target_pointer: phony || CMakeFiles/pointer.dir
+
+build CMakeFiles/pointer.dir/pointer/pointer.c.obj: C_COMPILER__pointer_Debug D$:/space/programming-language/learn-c/pointer/pointer.c || cmake_object_order_depends_target_pointer
+  DEP_FILE = CMakeFiles\pointer.dir\pointer\pointer.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointer.dir\pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointer
+
+
+#############################################
+# Link the executable pointer.exe
+
+build pointer.exe: C_EXECUTABLE_LINKER__pointer_Debug CMakeFiles/pointer.dir/pointer/pointer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointer.exe
+  TARGET_IMPLIB = libpointer.dll.a
+  TARGET_PDB = pointer.exe.dbg
 
 
 #############################################
@@ -102,7 +1056,65 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build array: phony array.exe
+
+build binary_file: phony binary_file.exe
+
+build count: phony count.exe
+
+build def_func: phony def_func.exe
+
+build enum: phony enum.exe
+
+build format_io: phony format_io.exe
+
+build func_strcmp: phony func_strcmp.exe
+
+build func_strcpy: phony func_strcpy.exe
+
+build func_strlen: phony func_strlen.exe
+
+build get_address: phony get_address.exe
+
+build go: phony go.exe
+
+build isPrime: phony isPrime.exe
+
 build learn_c: phony learn_c.exe
+
+build linked-list: phony linked-list.exe
+
+build macro: phony macro.exe
+
+build month: phony month.exe
+
+build narcissistic_number: phony narcissistic_number.exe
+
+build param_transfer: phony param_transfer.exe
+
+build pointer: phony pointer.exe
+
+build print_binary: phony print_binary.exe
+
+build read_binary_file: phony read_binary_file.exe
+
+build search: phony search.exe
+
+build sizeof: phony sizeof.exe
+
+build str_func: phony str_func.exe
+
+build string: phony string.exe
+
+build struct: phony struct.exe
+
+build struct_of_struct: phony struct_of_struct.exe
+
+build tic-tac-toe: phony tic-tac-toe.exe
+
+build union: phony union.exe
+
+build var: phony var.exe
 
 # =============================================================================
 # Folder targets.
@@ -112,7 +1124,7 @@ build learn_c: phony learn_c.exe
 #############################################
 # Folder: D:/space/programming-language/learn-c/cmake-build-debug
 
-build all: phony learn_c.exe
+build all: phony learn_c.exe narcissistic_number.exe array.exe linked-list.exe format_io.exe binary_file.exe read_binary_file.exe print_binary.exe var.exe macro.exe go.exe enum.exe struct.exe struct_of_struct.exe union.exe string.exe month.exe str_func.exe func_strlen.exe func_strcmp.exe func_strcpy.exe isPrime.exe def_func.exe param_transfer.exe sizeof.exe count.exe search.exe tic-tac-toe.exe get_address.exe pointer.exe
 
 # =============================================================================
 # Built-in targets
@@ -121,14 +1133,14 @@ build all: phony learn_c.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

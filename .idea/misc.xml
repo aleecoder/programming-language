@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/array" />
+      <file path="$PROJECT_DIR$/data_type" />
+      <file path="$PROJECT_DIR$/file" />
+      <file path="$PROJECT_DIR$/function" />
+      <file path="$PROJECT_DIR$/linked_list" />
+      <file path="$PROJECT_DIR$/pointer" />
+      <file path="$PROJECT_DIR$/program_structure" />
+      <file path="$PROJECT_DIR$/string" />
+      <file path="$PROJECT_DIR$/structure_type" />
+    </sourceRoots>
+  </component>
 </project>
