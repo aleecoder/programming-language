@@ -1030,6 +1030,138 @@ build pointer.exe: C_EXECUTABLE_LINKER__pointer_Debug CMakeFiles/pointer.dir/poi
   TARGET_IMPLIB = libpointer.dll.a
   TARGET_PDB = pointer.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pointer_apply
+
+
+#############################################
+# Order-only phony target for pointer_apply
+
+build cmake_object_order_depends_target_pointer_apply: phony || CMakeFiles/pointer_apply.dir
+
+build CMakeFiles/pointer_apply.dir/pointer/pointer_apply.c.obj: C_COMPILER__pointer_apply_Debug D$:/space/programming-language/learn-c/pointer/pointer_apply.c || cmake_object_order_depends_target_pointer_apply
+  DEP_FILE = CMakeFiles\pointer_apply.dir\pointer\pointer_apply.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\pointer_apply.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointer_apply.dir\pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointer_apply
+
+
+#############################################
+# Link the executable pointer_apply.exe
+
+build pointer_apply.exe: C_EXECUTABLE_LINKER__pointer_apply_Debug CMakeFiles/pointer_apply.dir/pointer/pointer_apply.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointer_apply.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointer_apply.exe
+  TARGET_IMPLIB = libpointer_apply.dll.a
+  TARGET_PDB = pointer_apply.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointer_operation
+
+
+#############################################
+# Order-only phony target for pointer_operation
+
+build cmake_object_order_depends_target_pointer_operation: phony || CMakeFiles/pointer_operation.dir
+
+build CMakeFiles/pointer_operation.dir/pointer/pointer_operation.c.obj: C_COMPILER__pointer_operation_Debug D$:/space/programming-language/learn-c/pointer/pointer_operation.c || cmake_object_order_depends_target_pointer_operation
+  DEP_FILE = CMakeFiles\pointer_operation.dir\pointer\pointer_operation.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\pointer_operation.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointer_operation.dir\pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointer_operation
+
+
+#############################################
+# Link the executable pointer_operation.exe
+
+build pointer_operation.exe: C_EXECUTABLE_LINKER__pointer_operation_Debug CMakeFiles/pointer_operation.dir/pointer/pointer_operation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointer_operation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointer_operation.exe
+  TARGET_IMPLIB = libpointer_operation.dll.a
+  TARGET_PDB = pointer_operation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target malloc
+
+
+#############################################
+# Order-only phony target for malloc
+
+build cmake_object_order_depends_target_malloc: phony || CMakeFiles/malloc.dir
+
+build CMakeFiles/malloc.dir/pointer/malloc.c.obj: C_COMPILER__malloc_Debug D$:/space/programming-language/learn-c/pointer/malloc.c || cmake_object_order_depends_target_malloc
+  DEP_FILE = CMakeFiles\malloc.dir\pointer\malloc.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\malloc.dir
+  OBJECT_FILE_DIR = CMakeFiles\malloc.dir\pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target malloc
+
+
+#############################################
+# Link the executable malloc.exe
+
+build malloc.exe: C_EXECUTABLE_LINKER__malloc_Debug CMakeFiles/malloc.dir/pointer/malloc.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\malloc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = malloc.exe
+  TARGET_IMPLIB = libmalloc.dll.a
+  TARGET_PDB = malloc.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target max_memory
+
+
+#############################################
+# Order-only phony target for max_memory
+
+build cmake_object_order_depends_target_max_memory: phony || CMakeFiles/max_memory.dir
+
+build CMakeFiles/max_memory.dir/pointer/max_memory.c.obj: C_COMPILER__max_memory_Debug D$:/space/programming-language/learn-c/pointer/max_memory.c || cmake_object_order_depends_target_max_memory
+  DEP_FILE = CMakeFiles\max_memory.dir\pointer\max_memory.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\max_memory.dir
+  OBJECT_FILE_DIR = CMakeFiles\max_memory.dir\pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max_memory
+
+
+#############################################
+# Link the executable max_memory.exe
+
+build max_memory.exe: C_EXECUTABLE_LINKER__max_memory_Debug CMakeFiles/max_memory.dir/pointer/max_memory.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\max_memory.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = max_memory.exe
+  TARGET_IMPLIB = libmax_memory.dll.a
+  TARGET_PDB = max_memory.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1086,6 +1218,10 @@ build linked-list: phony linked-list.exe
 
 build macro: phony macro.exe
 
+build malloc: phony malloc.exe
+
+build max_memory: phony max_memory.exe
+
 build month: phony month.exe
 
 build narcissistic_number: phony narcissistic_number.exe
@@ -1093,6 +1229,10 @@ build narcissistic_number: phony narcissistic_number.exe
 build param_transfer: phony param_transfer.exe
 
 build pointer: phony pointer.exe
+
+build pointer_apply: phony pointer_apply.exe
+
+build pointer_operation: phony pointer_operation.exe
 
 build print_binary: phony print_binary.exe
 
@@ -1124,7 +1264,7 @@ build var: phony var.exe
 #############################################
 # Folder: D:/space/programming-language/learn-c/cmake-build-debug
 
-build all: phony learn_c.exe narcissistic_number.exe array.exe linked-list.exe format_io.exe binary_file.exe read_binary_file.exe print_binary.exe var.exe macro.exe go.exe enum.exe struct.exe struct_of_struct.exe union.exe string.exe month.exe str_func.exe func_strlen.exe func_strcmp.exe func_strcpy.exe isPrime.exe def_func.exe param_transfer.exe sizeof.exe count.exe search.exe tic-tac-toe.exe get_address.exe pointer.exe
+build all: phony learn_c.exe narcissistic_number.exe array.exe linked-list.exe format_io.exe binary_file.exe read_binary_file.exe print_binary.exe var.exe macro.exe go.exe enum.exe struct.exe struct_of_struct.exe union.exe string.exe month.exe str_func.exe func_strlen.exe func_strcmp.exe func_strcpy.exe isPrime.exe def_func.exe param_transfer.exe sizeof.exe count.exe search.exe tic-tac-toe.exe get_address.exe pointer.exe pointer_apply.exe pointer_operation.exe malloc.exe max_memory.exe
 
 # =============================================================================
 # Built-in targets

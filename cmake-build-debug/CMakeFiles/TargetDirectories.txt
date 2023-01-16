@@ -28,5 +28,9 @@ D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/search.dir
 D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/tic-tac-toe.dir
 D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/get_address.dir
 D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/pointer.dir
+D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/pointer_apply.dir
+D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/pointer_operation.dir
+D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/malloc.dir
+D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/max_memory.dir
 D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/space/programming-language/learn-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
