@@ -1,6 +1,4 @@
-package class05_advanced
-
-import java.util.Date
+package class07_advance
 
 /**
  * 隐式转换 —— 隐式参数

@@ -1,4 +1,4 @@
-package class05_advanced
+package class05_fp
 
 /**
  * 偏函数

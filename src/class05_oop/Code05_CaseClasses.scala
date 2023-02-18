@@ -1,4 +1,4 @@
-package class05_advanced
+package class05_oop
 
 /**
  * 样例类（Case classes）和普通类差不多，结合模式匹配更好理解
@@ -11,7 +11,7 @@ package class05_advanced
 
 case class Dog(name: String, age: Int)
 
-object Code02_CaseClasses {
+object Code05_CaseClasses {
     def main(args: Array[String]): Unit = {
         // 样例类可以省略 new
         val dog1 = Dog("Husky", 18)

@@ -11,7 +11,6 @@ import scala.Tuple2;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Iterator;
 
 /**
  * Java实现WordCount
@@ -27,7 +26,7 @@ public class WordCountJava {
                             -> Arrays.asList(line.split(" ")).iterator()
                     )
                     .mapToPair((PairFunction<String, String, Integer>) word
-                            -> new Tuple2<String, Integer>(word, 1)
+                            -> new Tuple2<>(word, 1)
                     ).reduceByKey((Function2<Integer, Integer, Integer>) Integer::sum)
                     .sortByKey(Comparator.reverseOrder())
                     .foreach((VoidFunction<Tuple2<String, Integer>>) value

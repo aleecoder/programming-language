@@ -1,0 +1,8 @@
+22:22:58 INFO utils.PlanGenerator: The job has 0 registered types and 0 default Kryo serializers
+22:22:58 INFO fs.FileSystem: Hadoop is not in the classpath/dependencies. The extended set of supported File Systems via Hadoop is not available.
+22:22:58 INFO taskexecutor.TaskExecutorResourceUtils: The configuration option taskmanager.cpu.cores required for local execution is not set, setting it to the maximal possible value.
+22:22:58 INFO taskexecutor.TaskExecutorResourceUtils: The configuration option taskmanager.memory.task.heap.size required for local execution is not set, setting it to the maximal possible value.
+22:22:58 INFO taskexecutor.TaskExecutorResourceUtils: The configuration option taskmanager.memory.task.off-heap.size required for local execution is not set, setting it to the maximal possible value.
+22:22:58 INFO taskexecutor.TaskExecutorResourceUtils: The configuration option taskmanager.memory.network.min required for local execution is not set, setting it to its default value 64 mb.
+22:22:58 INFO taskexecutor.TaskExecutorResourceUtils: The configuration option taskmanager.memory.network.max required for local execution is not set, setting it to its default value 64 mb.
+22:22:58 INFO taskexecutor.TaskExecutorResourceUtils: The configuration option taskmanager.memory.managed.size required for local execution is not set, setting it to its default value 128 mb.

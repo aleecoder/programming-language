@@ -1,7 +1,6 @@
-package class05_advanced
+package class07_advance
 
 import java.util
-import scala.language.implicitConversions
 
 /**
  * 隐式转换 —— 隐式方法

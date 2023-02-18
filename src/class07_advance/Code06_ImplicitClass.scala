@@ -1,8 +1,7 @@
-package class05_advanced
+package class07_advance
 
 import java.util
 import java.util.Map.Entry
-import scala.language.implicitConversions
 
 /**
  * 隐式转换 —— 隐式类
@@ -17,16 +16,16 @@ object Code06_ImplicitClass {
     set.addAll(util.Arrays.asList(11, 22, 33))
     // 假如又新增了Map集合
     private val map = new util.HashMap[Int, String]()
-    map.put(111,"okk")
-    map.put(222,"haha")
+    map.put(111, "okk")
+    map.put(222, "haha")
 
 
-    implicit def c[T](c:util.Collection[T]):XXX[T] = {
+    implicit def c[T](c: util.Collection[T]): XXX[T] = {
         new XXX[T](c.iterator())
     }
 
-    implicit def m[K,V](m:util.Map[K,V]):XXX[Entry[K,V]] = {
-        new XXX[Entry[K,V]](m.entrySet().iterator())
+    implicit def m[K, V](m: util.Map[K, V]): XXX[Entry[K, V]] = {
+        new XXX[Entry[K, V]](m.entrySet().iterator())
     }
 
     // 这个类不需要再更改!!!可以处理各种类型的集合

@@ -11,6 +11,7 @@ object Code05_Map {
         val map = Map[String, Int](("a", 1), "b" -> 2, "c" -> 3, ("a", 4))
         // 遍历
         map.foreach(println)
+        for ((k, v) <- map) printf("Code is : %s and name is : %s\n", k, v)
         // 获取键
         val keys = map.keys
         val keySet = map.keySet

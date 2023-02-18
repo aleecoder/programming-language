@@ -27,5 +27,17 @@ object Code01_Array {
         array(0) = "PHP"
         println(array.mkString("Array(", ", ", ")"))
         array.foreach(println)
+
+        //Array提供了函数ofDim来定义二维和三维数组
+        val myMatrix = Array.ofDim[Int](3, 4)
+        val myCube = Array.ofDim[String](3, 2, 4)
+
+        //不定长数组
+        import scala.collection.mutable.ArrayBuffer
+        val mutableArr = ArrayBuffer[Int](10, 20, 30)
+        mutableArr += 40
+        mutableArr.insert(2, 60)
+        mutableArr -= 40
+        var temp = mutableArr.remove(2)
     }
 }
