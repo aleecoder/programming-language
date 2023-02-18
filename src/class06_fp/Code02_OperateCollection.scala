@@ -1,4 +1,4 @@
-package class05_fp
+package class06_fp
 
 /**
  * 针对集合的操作

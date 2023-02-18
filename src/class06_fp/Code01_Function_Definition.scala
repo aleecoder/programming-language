@@ -1,4 +1,4 @@
-package class05_fp
+package class06_fp
 
 /**
  * 函数的类型和值
