@@ -1,3 +1,10 @@
 [workspace]
 resolver = "2"
-members = ["guess_number", "common_concepts", "understanding_ownership", "using_struct", "enums_match"]
+members = [
+    "guess_number",
+    "common_concepts",
+    "understanding_ownership",
+    "using_struct",
+    "enums_match",
+    "manage_projects",
+]
