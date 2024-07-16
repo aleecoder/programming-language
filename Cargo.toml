@@ -6,5 +6,5 @@ members = [
     "understanding_ownership",
     "using_struct",
     "enums_match",
-    "manage_projects",
+    "manage_projects", "common_collections",
 ]
