@@ -1,0 +1,341 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'guess_number'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=guess_number",
+                    "--package=guess_number"
+                ],
+                "filter": {
+                    "name": "guess_number",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'guess_number'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=guess_number",
+                    "--package=guess_number"
+                ],
+                "filter": {
+                    "name": "guess_number",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'variables'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=variables",
+                    "--package=variables"
+                ],
+                "filter": {
+                    "name": "variables",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'variables'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=variables",
+                    "--package=variables"
+                ],
+                "filter": {
+                    "name": "variables",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'understanding_ownership'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=understanding_ownership",
+                    "--package=understanding_ownership"
+                ],
+                "filter": {
+                    "name": "understanding_ownership",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'understanding_ownership'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=understanding_ownership",
+                    "--package=understanding_ownership"
+                ],
+                "filter": {
+                    "name": "understanding_ownership",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'using_struct'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=using_struct",
+                    "--package=using_struct"
+                ],
+                "filter": {
+                    "name": "using_struct",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'using_struct'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=using_struct",
+                    "--package=using_struct"
+                ],
+                "filter": {
+                    "name": "using_struct",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'enums_match'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=enums_match",
+                    "--package=enums_match"
+                ],
+                "filter": {
+                    "name": "enums_match",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'enums_match'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=enums_match",
+                    "--package=enums_match"
+                ],
+                "filter": {
+                    "name": "enums_match",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'manage_projects'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=manage_projects",
+                    "--package=manage_projects"
+                ],
+                "filter": {
+                    "name": "manage_projects",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'manage_projects'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=manage_projects",
+                    "--package=manage_projects"
+                ],
+                "filter": {
+                    "name": "manage_projects",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'common_collections'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=common_collections",
+                    "--package=common_collections"
+                ],
+                "filter": {
+                    "name": "common_collections",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'common_collections'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=common_collections",
+                    "--package=common_collections"
+                ],
+                "filter": {
+                    "name": "common_collections",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'error_handling'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=error_handling",
+                    "--package=error_handling"
+                ],
+                "filter": {
+                    "name": "error_handling",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'error_handling'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=error_handling",
+                    "--package=error_handling"
+                ],
+                "filter": {
+                    "name": "error_handling",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'generic_types_traits_lifetimes'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=generic_types_traits_lifetimes",
+                    "--package=generic_types_traits_lifetimes"
+                ],
+                "filter": {
+                    "name": "generic_types_traits_lifetimes",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'generic_types_traits_lifetimes'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=generic_types_traits_lifetimes",
+                    "--package=generic_types_traits_lifetimes"
+                ],
+                "filter": {
+                    "name": "generic_types_traits_lifetimes",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

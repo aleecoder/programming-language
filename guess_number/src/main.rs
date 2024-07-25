@@ -32,10 +32,10 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue,
         };
-        let guess_number = Guess::new(guess_number);
-        print!("You guess number is: {} => ", guess_number.value());
+        let guess_number = Guess::new(guess_number).value();
+        print!("You guess number is: {} => ", guess_number);
 
-        match guess_number.value().cmp(&secret_number) {
+        match guess_number.cmp(&secret_number) {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {

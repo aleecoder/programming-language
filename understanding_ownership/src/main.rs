@@ -48,7 +48,7 @@ fn stack_copy() {
     println!("x = {}, y = {}", x, y);
 
     // 如果一个类型实现了copy这个trait，那么旧的变量在赋值后仍然可用
-    // 如果一个类型或该类型的一部分实现了drop trait，那么Rust不允许让它再去实现copy trait了
+    // 如果一个类型或该类型的一部分实现了drop traits，那么Rust不允许让它再去实现copy trait了
 
     // 任何简单标量的组合类型都可以是copy的
     // 任何需要分配内存或者某种资源的都不是copy的
@@ -151,7 +151,7 @@ fn more_reference() {
 //     &s
 // }
 //
-// #[test]
+// #[tests]
 // fn fn_dangle() {
 //     let _r = dangle();
 // }
