@@ -6,5 +6,5 @@ members = [
     "understanding_ownership",
     "using_struct",
     "enums_match",
-    "manage_projects", "common_collections", "error_handling", "generic_types_traits_lifetimes", "writing_automated_tests", "mini_grep",
+    "manage_projects", "common_collections", "error_handling", "generic_types_traits_lifetimes", "writing_automated_tests", "mini_grep", "iterators_closures", "object_oriented_programming", "fearless_concurrency", "multithreaded_web_server",
 ]

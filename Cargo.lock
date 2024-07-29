@@ -43,6 +43,10 @@ name = "error_handling"
 version = "0.1.0"
 
 [[package]]
+name = "fearless_concurrency"
+version = "0.1.0"
+
+[[package]]
 name = "generic_types_traits_lifetimes"
 version = "0.1.0"
 
@@ -88,6 +92,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "iterators_closures"
+version = "0.1.0"
+
+[[package]]
 name = "libc"
 version = "0.2.155"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -116,6 +124,14 @@ dependencies = [
  "env_logger",
  "log",
 ]
+
+[[package]]
+name = "multithreaded_web_server"
+version = "0.1.0"
+
+[[package]]
+name = "object_oriented_programming"
+version = "0.1.0"
 
 [[package]]
 name = "ppv-lite86"
